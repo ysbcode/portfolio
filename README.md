@@ -29,4 +29,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Action ##
 Using HTML and CSS (flex box) tools created the portfolio page
-[screenshotofdeployedportfolio](Assets\images\screencapture-ysbcode-github-io-portfolio.png)
+![screenshotofdeployedportfolio](https://github.com/ysbcode/portfolio/blob/main/Assets/images/screencapture-ysbcode-github-io-portfolio.png)
