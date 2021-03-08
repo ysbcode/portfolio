@@ -1,58 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Yuvraj Bhati Portfolio</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- navigation tags - block level element -->
     <header>
-        <h1>
-          <a href="/index.html">Yuvrj Bhati</a>
-        </h1>
-        <nav>
-          <ul>
-            <li>
-              <a href="#about-me">About Me</a>
-            </li>
-            <li>
-              <a href="#work">Work</a>
-            </li>
-            <li>
-              <a href="#contact-me">Contact Me</a>
-            </li>
-            <li>
-              <a href="#Resume">Resume</a>
-            </li>
-          </ul>
-        </nav>
+      <h1>
+        <a href="./index.html">Yuvraj Bhati</a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+          <li>
+            <a href="./Assets/Resume-Yuvraj-Bhati.PNG">Resume</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- end navigation -->
 
     <!-- hero/jumbotron -->
     <section class="hero">
-        <div class="hero-h2">
-          <h2>Aspiring Web Developer</h2>
-        </div>
+      <img src="Assets/Yuvraj.jpg" alt="Yuvraj Bhati Portfolio Picture" />
+      <div class="hero-h2">
+        <h2>Aspiring Web Developer!</h2>
+      </div>
     </section>
 
     <!-- "About Me" start - <section> -->
     <section id="about-me" class="about-me">
-        <div class="flex-row">
-            <h2 class="aboutme-h2">
-                About Me
-            </h2>
-            </div>
-        <div class="flex-row">
-            <p>
-                An aspiring full stack web developer with extensive experience in BFSI and ITES sector. 
-                Switching career to tech where I can utilize my experience and contribute to this amazing field.
-            </p>
-        </div>
+      <h2 class="aboutme-h2">About Me</h2>
+      <div class="aboutme-p">
+        <p>
+          An aspiring full stack web developer with extensive experience in BFSI
+          and ITES sector. Switching career to tech where I can utilize my
+          experience and contribute to this amazing field.
+        </p>
+      </div>
     </section>
     <!-- end "About Me" -->
-</body>
+
+    <!-- "Work" start -->
+    <section id="work" class="work">
+      <div class="flex-row">
+        <h2 class="work-h2">Work</h2>
+      </div>
+
+      <div class="repo">
+            <a href="https://ysbcode.github.io/run-buddy/">
+                <div id="repo1">
+                     <h3 class="repo-name">Run Buddy</h3>
+                    <h4 class="repo-script"></h4>Html/CSS</h4>
+                </div>
+            </a>
+
+            <div class="repo-info">
+                <a href="https://ysbcode.github.io/horiseon-accessibility/">
+                    <div id="repo2">
+                        <h3 class="repo-name">Horiseon Accessibility</h3>
+
+                        <h4 class="repo-script">Html/CSS</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="repo-info">
+                <a href="https://ysbcode.github.io/Bandfanpage/">
+                    <div id="repo3">
+                         <h3 class="repo-name">Fanpage</h3>
+
+                        <h4 class="repo-script">Html/CSS</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="repo-info">
+                <a href="https://ysbcode.github.io/watch-that-box/">
+                    <div id="repo4">
+                        <h3 class="repo-name">Watch That Box</h3>
+
+                        <h4 class="repo-script">Html/Javascript</h4>
+                    </div>
+                </a>
+            </div>
+            <div class="repo-info">
+                <a href="https://ysbcode.github.io/wireframe/">
+                    <div id="repo5">
+                         <h3 class="repo-name">Wireframe</h3>
+
+                        <h4 class="repo-script">Html</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- "Work" end -->
+
+    <!-- "Contact Me" -->
+    <section id="contact-me" class="contact">
+      <div class="flex-row">
+        <h2 class="contact-h2">Contact Me</h2>
+      </div>
+
+        <div class="contact-info">
+            <ul>
+                <li>
+                <strong><a href="4372179644">437.217.9644</a></strong>
+                </li>
+                <li>
+                <strong><a href="mailto:ysbcode@gmail.com">ysbcode@gmail.com</a></strong>
+                </li>
+                <li>
+                <strong><a href="https://github.com/ysbcode">GitHub</a></strong>
+                </li>
+                <li>
+                <strong><a href="https://www.linkedin.com/in/yuvraj-singh-bhati-49485780/">LinkedIn</a></strong>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- "Contact Me end" -->
+  </body>
 </html>
